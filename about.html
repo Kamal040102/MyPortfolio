@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link rel="icon"
+        href="/Screenshot_2021-04-21 Initial letter ks logo template design vector image on VectorStock.png"
+        type="image/icon">
+
+    <title>About - Sharma Kamal | Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/Screenshot_2021-04-21 Initial letter ks logo template design vector image on VectorStock.png"
+                    alt="" width="40" height="30">
+            </a>
+            <a class="navbar-brand" href="/index.html">
+                <h4 class="m-0">S Kamal</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#rockPaperScissorGame">Rock Paper Scissor Game with
+                                    Java</a></li>
+                            <li><a class="dropdown-item" href="#numberGuessingGame">Number Guessing Game with Java</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Visit My Github for more...</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button type="button" class="btn btn-danger mx-2" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Login
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="input-group flex-nowrap mb-4">
+                                        <span class="input-group-text" id="addon-wrapping">@</span>
+                                        <input type="text" class="form-control" placeholder="Username"
+                                            aria-label="Username" aria-describedby="addon-wrapping">
+                                    </div>
+                                    <div class="input-group flex-nowrap mt-4">
+                                        <span class="input-group-text" id="addon-wrapping">*</span>
+                                        <input type="password" class="form-control" placeholder="Password"
+                                            aria-label="Password" aria-describedby="addon-wrapping">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-success disabled">Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop1">
+                        SignUp
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdrop1Label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdrop1Label">Sign Up</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="needs-validation" novalidate>
+                                        <div class="mb-2">
+                                            <label for="validationCustom01" class="form-label">First name</label>
+                                            <input type="text" class="form-control" id="validationCustom01" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="validationCustom02" class="form-label">Last name</label>
+                                            <input type="text" class="form-control" id="validationCustom02" required>
+                                            <div class="valid-feedback">
+                                                Looks good!
+                                            </div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="validationCustomUsername" class="form-label">Username</label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text" id="inputGroupPrepend">
+                                                    U
+                                                </span>
+                                                <input type="text" class="form-control" id="validationCustomUsername"
+                                                    aria-describedby="inputGroupPrepend" required>
+                                                <div class="invalid-feedback">
+                                                    Please choose a username.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="validationCustomUsername" class="form-label">Email</label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                                <input type="text" class="form-control" id="validationCustomUsername"
+                                                    aria-describedby="inputGroupPrepend" required>
+                                                <div class="invalid-feedback">
+                                                    Please enter your valid Email Id.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="validationCustom03" class="form-label">City</label>
+                                            <input type="text" class="form-control" id="validationCustom03" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid city.
+                                            </div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="validationCustom04" class="form-label">Country</label>
+                                            <select class="form-select" id="validationCustom04" required>
+                                                <option selected disabled value="">Choose...</option>
+                                                <option>India</option>
+                                                <option>United States of America</option>
+                                                <option>Qatar</option>
+                                                <option>United Arab Emirates</option>
+                                                <option>Pakistan</option>
+                                                <option>Nepal</option>
+                                                <option>Sri Lanka</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                                Please select a valid state.
+                                            </div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="validationCustom05" class="form-label">Zip</label>
+                                            <input type="text" class="form-control" id="validationCustom05" required>
+                                            <div class="invalid-feedback">
+                                                Please provide a valid zip.
+                                            </div>
+                                        </div>
+                                        <div class="mt-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="invalidCheck" required>
+                                                <label class="form-check-label" for="invalidCheck">
+                                                    Agree to terms and conditions
+                                                </label>
+                                                <div class="invalid-feedback">
+                                                    You must agree before submitting.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-2">
+                                            <strong>A temporary passsword will be sent to email you provided.</strong>
+                                        </div>
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="reset" class="btn btn-secondary">Reset</button>
+                                    <button type="submit" class="btn btn-success disabled">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <marquee behavior="" direction="">
+        <h1>
+            This page is under Construction.
+        </h1>
+    </marquee>
+</body>
+
+</html>
